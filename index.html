@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chatbot UI</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />            
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />        
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />        
+        <link href="css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="css/plugins.min.css" rel="stylesheet" type="text/css" />        
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css" />                
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <body>                 
+        <div class="container-fluid" style="margin-top:5px">                                                                                                                                                                                   
+            <div class="row">                           
+                <div class="col-lg-12 col-xs-12 col-sm-12">                    
+                    <div class="portlet light bordered">
+                        <div class="portlet-title">
+                            <div class="caption">                                
+                                <span class="bold uppercase">Chats</span>
+                            </div>                                       
+                        </div>
+                        <div class="portlet-body" id="chats">
+                            <div class="scroller" style="height: 525px;" data-always-visible="1" data-rail-visible1="1">
+                                <ul class="chats">                                                
+                                    <li class="in">
+                                        <img class="avatar" alt="" src="img/avatar3.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Richard Doe </a>
+                                            <span class="datetime"> at 20:35 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="out">
+                                        <img class="avatar" alt="" src="img/avatar1.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Bob Nilson </a>
+                                            <span class="datetime"> at 20:40 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="in">
+                                        <img class="avatar" alt="" src="img/avatar3.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Richard Doe </a>
+                                            <span class="datetime"> at 20:40 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="out">
+                                        <img class="avatar" alt="" src="img/avatar1.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Bob Nilson </a>
+                                            <span class="datetime"> at 20:54 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt ut laoreet.
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="in">
+                                        <img class="avatar" alt="" src="img/avatar3.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Richard Doe </a>
+                                            <span class="datetime"> at 20:35 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="out">
+                                        <img class="avatar" alt="" src="img/avatar1.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Bob Nilson </a>
+                                            <span class="datetime"> at 20:40 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="in">
+                                        <img class="avatar" alt="" src="img/avatar3.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Richard Doe </a>
+                                            <span class="datetime"> at 20:40 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+                                        </div>
+                                    </li>
+                                    <li class="out">
+                                        <img class="avatar" alt="" src="img/avatar1.jpg" />
+                                        <div class="message">
+                                            <span class="arrow"> </span>
+                                            <a href="javascript:;" class="name"> Bob Nilson </a>
+                                            <span class="datetime"> at 20:54 </span>
+                                            <span class="body"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt ut laoreet.
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="chat-form">
+                                <div class="input-cont">
+                                    <input class="form-control" type="text" placeholder="Type a message here..." /> </div>
+                                <div class="btn-cont">
+                                    <span class="arrow"> </span>
+                                    <a href="" class="btn blue icn-only">
+                                        <i class="fa fa-check icon-white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>                       
+        </div>                        
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>            
+        <script src="js/jquery.slimscroll.min.js" type="text/javascript"></script>            
+        <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>           
+        <script src="js/app.min.js" type="text/javascript"></script>                        
+        <script type="text/javascript">
+            var Dashboard = function() {
+                return{initChat: function() {
+                        var e = $("#chats"), t = $(".chats", e), a = $(".chat-form", e), i = $("input", a), l = $(".btn", a), o = function(a) {
+                            a.preventDefault();
+                            var l = i.val();
+                            if (0 != l.length) {
+                                var o = new Date, n = o.getHours() + ":" + o.getMinutes(), r = "";
+                                r += '<li class="out">', r += '<img class="avatar" alt="" src="img/avatar1.jpg"/>', r += '<div class="message">', r += '<span class="arrow"></span>', r += '<a href="#" class="name">Bob Nilson</a>&nbsp;', r += '<span class="datetime">at ' + n + "</span>", r += '<span class="body">', r += l, r += "</span>", r += "</div>", r += "</li>";
+                                t.append(r);
+                                i.val("");
+                                var s = function() {
+                                    var t = 0;
+                                    return e.find("li.out, li.in").each(function() {
+                                        t += $(this).outerHeight()
+                                    }), t
+                                };
+                                e.find(".scroller").slimScroll({scrollTo: s()})
+                            }
+                        };
+                        $("body").on("click", ".message .name", function(e) {
+                            e.preventDefault();
+                            var t = $(this).text();
+                            i.val("@" + t + ":"), App.scrollTo(i)
+                        }), l.click(o), i.keypress(function(e) {
+                            return 13 == e.which ? (o(e), !1) : void 0
+                        })
+                    }, init: function() {
+                        this.initChat()
+                    }}
+            }();
+            App.isAngularJsApp() === !1 && jQuery(document).ready(function() {
+                Dashboard.init()
+            });
+        </script>        
+        <script src="js/layout.min.js" type="text/javascript"></script>                  
+    </body>
+</html>
